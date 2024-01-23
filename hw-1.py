@@ -40,6 +40,21 @@ print(message.upper())
 print(message.lower())
 
 #Even numbers and odd numbers in the expression "0123456789" are selected. ("02468", "13579")
-
 numbers = "0123456789"
-myList = numbers.split()
+evenList = []
+oddList = []
+
+for i in range(len(numbers)):
+    num = int(numbers[i])
+    if num % 2 == 1:
+        oddList.append(num)
+    else:
+        evenList.append(num)
+
+print("\nOdd numbers are : ", end="")
+for i in range(len(oddList)):
+    print(oddList[i], " ", end="")
+
+print("\nEven numbers are: ", end="")
+for i in range(len(evenList)):
+    print(evenList[i], " ", end="")
