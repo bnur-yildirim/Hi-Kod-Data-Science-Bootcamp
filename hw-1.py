@@ -20,7 +20,7 @@ Division: {num1/num2}""")
 
 
 """The user is asked for name, age, city and profession information and their answers are displayed."""
-name = input("Enter your name: ")
+name = input("\nEnter your name: ")
 age = int(input("Enter your age: "))
 profession = input("Enter your profession: ")
 
