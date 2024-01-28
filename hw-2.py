@@ -48,6 +48,3 @@ while tries > 0:
     else:
         _password = input(f"Wrong password. You have {tries} tries.\nEnter again: ")
         tries -= 1
-
-
-
